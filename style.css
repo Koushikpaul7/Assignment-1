@@ -1,32 +1,106 @@
 body{
     margin: 0;
+    font-family: 'Architects Daughter', cursive;
 }
 .head-color{
     color: tomato;
 }
-.first-section{
+.first-part{
     display: flex;
-    width: 100%;
+    padding: 5px;
+    justify-content: center;
     
 } 
 .first-item{
     width: 50%;
-    padding: 4%;
+    padding-left: 5%;
+    
 }
 .first-item img{
     width: 80%;
+    margin-top: -100px;
 }
 .button-design{
     background-image: linear-gradient(orangered,tomato);
     text-decoration: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 40px;
     color: white;
+    margin-bottom: 100px;
 }
 .head-border{
     border-left: 7px solid;
     border-image: linear-gradient(salmon,tomato);
     border-image-slice: 1;
-    font-size: 30px;
+    font-size: 25px;
+    padding-left: 15px;
     
+}
+#bottom-text{
+    margin-top: 40px;
+}
+/*1st section done */
+.second-sec{
+    text-align: center;
+    margin-top: 50px;
+    justify-content: center;
+}
+.second-sec h1{
+    margin-bottom: 100px;
+}
+.cards{
+    
+    box-shadow: 10px 20px 40px gray;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: azure;
+    text-align: left;
+}
+.cards img{
+    width: 180px;
+}
+.all-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+
+}
+.color-last{
+    background-color: lightskyblue;
+}
+.color-mid{
+    background-color: mediumaquamarine;
+}
+.banner{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px;
+}
+.third-part{
+    display: flex;
+    padding: 5px;
+    margin: 100px;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 100px;
+}
+.banner-two{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 150px;
+    margin-right: 180px;
+}
+#picture-adjust{
+    width: 400px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.foot{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
