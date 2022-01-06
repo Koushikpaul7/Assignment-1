@@ -18,7 +18,7 @@ body{
 }
 .first-item img{
     width: 80%;
-    margin-top: -100px;
+    
 }
 .button-design{
     background-image: linear-gradient(orangered,tomato);
@@ -40,7 +40,7 @@ body{
     margin-top: 40px;
 }
 /*1st section done */
-.second-sec{
+.second-part{
     text-align: center;
     margin-top: 50px;
     justify-content: center;
@@ -91,12 +91,14 @@ body{
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 150px;
+    border-radius: 100x;
     margin-right: 180px;
 }
-#picture-adjust{
+.picture-adjust{
     width: 400px;
     margin-bottom: 50px;
-    margin-left: 100px;
+    margin-left: 56px;
+    border-radius: 10px;
 }
 .foot{
     text-align: center;
