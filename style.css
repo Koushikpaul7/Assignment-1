@@ -104,3 +104,32 @@ body{
     color: white;
     padding: 15px;
 }
+.banner-three{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 350px;
+}
+.contact{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contact-head{
+    color: blue;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.form-head{
+    color: cadetblue;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.type-design{
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    padding: 20px;
+    box-shadow: 10px 10px 30px skyblue;
+    margin-bottom: 20px;
+    width: 60%;
+    
+}
